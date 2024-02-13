@@ -48,7 +48,7 @@ int main()
             for(int j=0;j<q;j++)
             {
                 res[i][j] = 0;
-                // 'i' row of a , 'j' column if b
+                // 'i' row of a , 'j' column of b
                 for(int k=0;k<n;k++)
                 {
                     res[i][j] += a[i][k] * b[k][j];
