@@ -13,7 +13,7 @@ int main()
     {                             
         int min = INT_MAX;
         int minidx = -1;              // minidx = min index
-        for(int j=i; j<=6; j++)  
+        for(int j=i; j<7; j++)  
         {
             if(min>arr[j])
             {
