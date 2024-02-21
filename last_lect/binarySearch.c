@@ -7,7 +7,7 @@ int main()
     printf("Enter elements\n");
     for(i=0;i<n;i++)
     {
-        scanf("%d",&arr[i]);            // In Binary, array should be sorted 
+        scanf("%d",&arr[i]);            // In Binary, array should be sorted in ascending order
     }
     printf("Enter element to be search\n");
     scanf("%d",&search);
